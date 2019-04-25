@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    background: url("http://cdn.jerryshi.com/picgo/index_pic_2.min.jpg") no-repeat;
+    background-size: cover;
+    font-family: "montserrat", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: #2c3e50B3;
+}
+
+.container h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1 span {
+    display: block;
+    background: #2ecc71;
+    padding: 0 10px;
+}
+
+.menu{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    overflow: hidden;
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu span {
+    height: 3px;
+    display: block;
+    margin: 9px;
+    background: white;
+    transition: 0.5s all;
+}
+
+.s1, .s3{
+    width: 100%;
+}
+
+.s2{
+    width: 65%;
+}
+
+.menu:hover > .s2{
+    width: 100%;
+}
