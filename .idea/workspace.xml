@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,26 +16,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190426_Coming-Soon-Page/index.html">
+        <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190426_Coming-Soon-Page/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190420_glitch-text/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -63,6 +58,8 @@
         <option value="$PROJECT_DIR$/20190425_responsive-nav/style.css" />
         <option value="$PROJECT_DIR$/20190426_Coming-Soon-Page/index.html" />
         <option value="$PROJECT_DIR$/20190426_Coming-Soon-Page/style.css" />
+        <option value="$PROJECT_DIR$/20190427_hover-effect-images/index.html" />
+        <option value="$PROJECT_DIR$/20190427_hover-effect-images/style.css" />
       </list>
     </option>
   </component>
@@ -78,8 +75,8 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="636" />
-    <option name="y" value="50" />
+    <option name="x" value="740" />
+    <option name="y" value="135" />
     <option name="width" value="999" />
     <option name="height" value="846" />
   </component>
@@ -129,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,13 +137,12 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190420_glitch-text" type="462c0819:PsiDirectoryNode" />
+              <item name="20190427_hover-effect-images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,15 +179,16 @@
       <option name="presentableId" value="Default" />
       <updated>1556179726415</updated>
       <workItem from="1556179728855" duration="1889000" />
-      <workItem from="1556208196623" duration="1334000" />
+      <workItem from="1556208196623" duration="1553000" />
+      <workItem from="1556297141596" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3223000" />
+    <option name="totallyTimeSpent" value="4272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="636" y="50" width="999" height="846" extended-state="0" />
+    <frame x="740" y="135" width="999" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21779141" />
@@ -243,7 +241,7 @@
     <entry file="file://$PROJECT_DIR$/20190426_Coming-Soon-Page/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -256,6 +254,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20190420_glitch-text/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/i1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/i2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/i3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_hover-effect-images/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

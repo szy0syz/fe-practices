@@ -2,6 +2,10 @@
 
 纯の前端练习
 
+## 20190427 图片自上而下效果
+
+![20190427](http://cdn.jerryshi.com/picgo/img-effect.gif)
+
 ## 20190426 coming soon
 
 ![20190425](http://cdn.jerryshi.com/picgo/1556209300084.jpg)
