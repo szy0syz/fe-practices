@@ -17,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html">
+        <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css">
+        <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+            <state relative-caret-position="303">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -47,6 +47,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chk</find>
+      <find>screen</find>
+      <find>full</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,6 +67,8 @@
         <option value="$PROJECT_DIR$/20190427_responsive-gallery/index.html" />
         <option value="$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html" />
         <option value="$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css" />
+        <option value="$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html" />
+        <option value="$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css" />
       </list>
     </option>
   </component>
@@ -82,7 +86,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="943" />
     <option name="y" value="135" />
-    <option name="width" value="796" />
+    <option name="width" value="912" />
     <option name="height" value="846" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -141,7 +145,12 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190427_Transparent-Login-Form" type="462c0819:PsiDirectoryNode" />
+              <item name="20190420_glitch-text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="20190428_Animated-Full-Landing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,18 +195,18 @@
       <workItem from="1556179728855" duration="1889000" />
       <workItem from="1556208196623" duration="1553000" />
       <workItem from="1556297141596" duration="1196000" />
-      <workItem from="1556331728085" duration="3003000" />
+      <workItem from="1556331728085" duration="4237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7641000" />
+    <option name="totallyTimeSpent" value="8875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="943" y="135" width="796" height="846" extended-state="0" />
+    <frame x="943" y="135" width="912" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2167742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570146" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,13 +239,6 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc" />
     <entry file="file://$USER_HOME$/Downloads/Responsive Navigation Menu/index.html" />
-    <entry file="file://$PROJECT_DIR$/20190425_responsive-nav/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20190425_responsive-nav/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -248,13 +250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20190426_Coming-Soon-Page/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -301,7 +296,7 @@
     <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -309,6 +304,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190426_Coming-Soon-Page/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190425_responsive-nav/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190421_hover-effect-button/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190420_services-section/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190420_glitch-text/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>

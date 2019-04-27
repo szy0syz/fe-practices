@@ -2,6 +2,10 @@
 
 纯の前端练习
 
+## 20190428 首屏背景图放大
+
+![20190427](/20190428_Animated-Full-Landing/preview.gif)
+
 ## 20190427 透明登录界面
 
 ![20190427](/20190427_Transparent-Login-Form/preview.jpg)
