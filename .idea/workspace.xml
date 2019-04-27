@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/20190427_responsive-gallery/style.css" line="0" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="" />
+    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/20190428_Animated-Full-Landing/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190428_Animated-Full-Landing/preview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,19 +22,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html">
+        <entry file="file://$PROJECT_DIR$/20190427_Full-Landing-Carousel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css">
+        <entry file="file://$PROJECT_DIR$/20190427_Full-Landing-Carousel/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -69,6 +74,8 @@
         <option value="$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css" />
         <option value="$PROJECT_DIR$/20190428_Animated-Full-Landing/index.html" />
         <option value="$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css" />
+        <option value="$PROJECT_DIR$/20190427_Full-Landing-Carousel/index.html" />
+        <option value="$PROJECT_DIR$/20190427_Full-Landing-Carousel/style.css" />
       </list>
     </option>
   </component>
@@ -145,12 +152,7 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190420_glitch-text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190428_Animated-Full-Landing" type="462c0819:PsiDirectoryNode" />
+              <item name="20190427_Full-Landing-Carousel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,18 +197,18 @@
       <workItem from="1556179728855" duration="1889000" />
       <workItem from="1556208196623" duration="1553000" />
       <workItem from="1556297141596" duration="1196000" />
-      <workItem from="1556331728085" duration="4237000" />
+      <workItem from="1556331728085" duration="5356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8875000" />
+    <option name="totallyTimeSpent" value="9994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="943" y="135" width="912" height="846" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570146" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2570146" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,7 +220,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891247" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,8 +349,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20190428_Animated-Full-Landing/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="152">
           <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_Full-Landing-Carousel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_Full-Landing-Carousel/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
