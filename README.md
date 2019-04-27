@@ -2,6 +2,10 @@
 
 纯の前端练习
 
+## 20190427 透明登录界面
+
+![20190427](/20190427_Transparent-Login-Form/preview.jpg)
+
 ## 20190427 响应式动效相册
 
 ![20190427](/20190427_responsive-gallery/gallery.gif)

@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/20190427_responsive-gallery/style.css" line="0" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190427_responsive-gallery/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190427_responsive-gallery/style.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="629">
+              <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -65,6 +63,8 @@
         <option value="$PROJECT_DIR$/20190427_hover-effect-images/style.css" />
         <option value="$PROJECT_DIR$/20190427_responsive-gallery/style.css" />
         <option value="$PROJECT_DIR$/20190427_responsive-gallery/index.html" />
+        <option value="$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html" />
+        <option value="$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css" />
       </list>
     </option>
   </component>
@@ -141,7 +141,7 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190427_responsive-gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="20190427_Transparent-Login-Form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,12 +186,12 @@
       <workItem from="1556179728855" duration="1889000" />
       <workItem from="1556208196623" duration="1553000" />
       <workItem from="1556297141596" duration="1196000" />
-      <workItem from="1556331728085" duration="1359000" />
+      <workItem from="1556331728085" duration="3003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5997000" />
+    <option name="totallyTimeSpent" value="7641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="943" y="135" width="796" height="846" extended-state="0" />
@@ -287,14 +287,28 @@
     <entry file="file://$PROJECT_DIR$/20190427_responsive-gallery/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/20190427_responsive-gallery/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
         </state>
       </provider>
     </entry>
