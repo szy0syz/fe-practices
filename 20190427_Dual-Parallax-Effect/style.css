@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 6000px;
+}
+
+.heading{
+    background: url("http://cdn.jerryshi.com/picgo/index_pic_1.min.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.read1{
+    background: url("http://iph.href.lu/1920x1200");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.read2 {
+    background: url("http://cdn.jerryshi.com/picgo/index_pic_2.min.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.read3{
+    background: url("http://iph.href.lu/1920x1200");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.read4{
+    background: url("http://cdn.jerryshi.com/picgo/index_pic_1.min.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}

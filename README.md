@@ -2,6 +2,10 @@
 
 纯の前端练习
 
+## 20190427 首页双视觉
+
+![20190427](/20190427_Dual-Parallax-Effect/preview.gif)
+
 ## 20190427 首屏css3轮播
 
 ![20190427](/20190427_Full-Landing-Carousel/preview.gif)
