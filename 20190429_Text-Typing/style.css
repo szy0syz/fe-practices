@@ -5,9 +5,9 @@
 
 h1 {
     font-size: 40px;
-    animation: type 3s steps(13) infinite;
-    overflow: hidden;
+    animation: type 3s steps(8) infinite;
     white-space: nowrap;
+    overflow: hidden;
     width: 13ch;
 }
 
@@ -15,7 +15,7 @@ h1 {
     display: inline-block;
     padding-right: 2px;
     border-right: 4px solid black;
-    animation: biao .5s infinite;
+    animation: biao .3s infinite;
     margin: 10px;
     transition: .3s;
 }
