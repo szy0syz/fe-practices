@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    animation: type 3s steps(13) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 13ch;
+}
+
+.container {
+    display: inline-block;
+    padding-right: 2px;
+    border-right: 4px solid black;
+    animation: biao .5s infinite;
+    margin: 10px;
+    transition: .3s;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        /* "some text".length */
+        width: 13ch;
+    }
+}
+
+@keyframes biao {
+    0% {
+        border-right-color: transparent;
+    }
+
+    100% {
+        border-right: 4px solid black;
+    }
+}

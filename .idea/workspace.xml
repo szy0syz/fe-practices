@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/preview.gif" beforeDir="false" afterPath="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/preview.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,19 +24,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20190429_Image-Hover/index.html">
+        <entry file="file://$PROJECT_DIR$/20190429_Text-Typing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/20190429_Image-Hover/style.css">
+        <entry file="file://$PROJECT_DIR$/20190429_Text-Typing/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="23">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -82,6 +84,8 @@
         <option value="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/style.css" />
         <option value="$PROJECT_DIR$/20190429_Image-Hover/index.html" />
         <option value="$PROJECT_DIR$/20190429_Image-Hover/style.css" />
+        <option value="$PROJECT_DIR$/20190429_Text-Typing/index.html" />
+        <option value="$PROJECT_DIR$/20190429_Text-Typing/style.css" />
       </list>
     </option>
   </component>
@@ -97,10 +101,10 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="943" />
-    <option name="y" value="135" />
-    <option name="width" value="967" />
-    <option name="height" value="871" />
+    <option name="x" value="1257" />
+    <option name="y" value="328" />
+    <option name="width" value="653" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -158,7 +162,7 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="20190429_Image-Hover" type="462c0819:PsiDirectoryNode" />
+              <item name="20190429_Text-Typing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,20 +208,21 @@
       <workItem from="1556208196623" duration="1553000" />
       <workItem from="1556297141596" duration="1196000" />
       <workItem from="1556331728085" duration="6728000" />
-      <workItem from="1556546965402" duration="1564000" />
+      <workItem from="1556546965402" duration="2369000" />
+      <workItem from="1556701020762" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12930000" />
+    <option name="totallyTimeSpent" value="15285000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="943" y="135" width="967" height="871" extended-state="0" />
+    <frame x="1257" y="328" width="653" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49935815" visible="true" weight="0.2843552" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" weight="0.2843552" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info active="true" id="Favorites" order="2" sideWeight="0.5006418" side_tool="true" visible="true" weight="0.2843552" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017065" side_tool="true" weight="0.2843552" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -356,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190427_Dual-Parallax-Effect/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20190427_Animated-Full-Landing/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -395,6 +393,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190427_Dual-Parallax-Effect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190429_Text-Typing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190429_Text-Typing/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
