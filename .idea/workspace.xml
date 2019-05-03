@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_glitch-text/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_glitch-text/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_glitch-text/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_services-section/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_services-section/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190420_services-section/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190421_Hover-Effect-Button/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190421_Hover-Effect-Button/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/.idea/20190425_responsive-nav.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190425_responsive-nav/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190426_Coming-Soon-Page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190426_Coming-Soon-Page/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Animated-Full-Landing/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Animated-Full-Landing/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Animated-Full-Landing/preview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Animated-Full-Landing/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/preview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Dual-Parallax-Effect/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Full-Landing-Carousel/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Full-Landing-Carousel/preview.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Full-Landing-Carousel/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Transparent-Login-Form/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Transparent-Login-Form/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Transparent-Login-Form/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_Transparent-Login-Form/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_hover-effect-images/i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_hover-effect-images/i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_hover-effect-images/i3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_hover-effect-images/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_hover-effect-images/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/gallery.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/imgs/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190427_responsive-gallery/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c96a8e84-3ce9-4091-86ca-e56ada5173c0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -67,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/016_20190503_Responsive-Product-Card/index.html">
+        <entry file="file://$PROJECT_DIR$/017_20190504_Card-Effects/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/016_20190503_Responsive-Product-Card/style.css">
+        <entry file="file://$PROJECT_DIR$/017_20190504_Card-Effects/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="397">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,6 +86,8 @@
         <option value="$PROJECT_DIR$/20190502_CSS-Split-Screen-Hover/style.css" />
         <option value="$PROJECT_DIR$/016_20190503_Responsive-Product-Card/index.html" />
         <option value="$PROJECT_DIR$/016_20190503_Responsive-Product-Card/style.css" />
+        <option value="$PROJECT_DIR$/017_20190504_Card-Effects/index.html" />
+        <option value="$PROJECT_DIR$/017_20190504_Card-Effects/style.css" />
       </list>
     </option>
   </component>
@@ -151,8 +103,8 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1084" />
-    <option name="y" value="23" />
+    <option name="x" value="990" />
+    <option name="y" value="24" />
     <option name="width" value="836" />
     <option name="height" value="974" />
   </component>
@@ -213,7 +165,7 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="016_20190503_Responsive-Product-Card" type="462c0819:PsiDirectoryNode" />
+              <item name="017_20190504_Card-Effects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,15 +212,15 @@
       <workItem from="1556331728085" duration="6728000" />
       <workItem from="1556546965402" duration="2369000" />
       <workItem from="1556701020762" duration="6190000" />
-      <workItem from="1556896482652" duration="2681000" />
+      <workItem from="1556896482652" duration="4075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22606000" />
+    <option name="totallyTimeSpent" value="24000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1084" y="23" width="836" height="974" extended-state="0" />
+    <frame x="990" y="24" width="836" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" weight="0.2822086" />
@@ -495,6 +447,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017_20190504_Card-Effects/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/017_20190504_Card-Effects/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
