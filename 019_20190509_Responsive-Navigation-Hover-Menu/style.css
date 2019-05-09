@@ -1,0 +1,117 @@
+body{
+    background: url("http://cdn.jerryshi.com/picgo/index_pic_2.min.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    font-family: Tahoma;
+    height: 85vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav .menu{
+    margin-top: 159px;
+    text-align: center;
+    margin-left: -37px;
+}
+
+nav .menu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav .menu ul li{
+    float: left;
+    width: 124px;
+    height: 140px;
+    border-left: 1px solid #e3e3e3;
+    background-color: white;
+    transition: background-color 0.2s linear 0s;
+}
+
+nav .menu ul li:last-child{
+    border-right: 1px solid #e3e3e3;
+}
+
+nav .menu ul li a{
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+nav .menu a i{
+    display: block;
+    vertical-align: middle;
+    color: #333;
+    font-size: 23px;
+    transition: all 0.2s linear 0s;
+    padding: 44px 0 10px;
+}
+
+nav .menu a i:before {
+    border: 2px solid #333;
+    border-radius: 500px;
+    width: 41px;
+    display: inline-block;
+    height: 41px;
+    line-height: 37px;
+    /*高级玩法*/
+    transition: color 0.2s linear 0s,
+                font-size 0.2s linear 0s,
+                border-color 0.2s linear 0.2s,
+                height 0.2s linear 0s,
+                line-height 0.2s linear 0s;
+
+}
+
+nav .menu a .link-text{
+    right: 45px;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.2s linear 0s;
+}
+
+nav .menu ul li:hover{
+    background-color: #ffea00;
+    border-color: #ffea00;
+}
+
+nav .menu u li:hover + li {
+    border-color: #ffea00;
+}
+
+nav .menu ul li:hover + li:last-child{
+    border-right-color: #e3e3e3;
+}
+
+nav .menu ul li:hover .link-text{
+    opacity: 0;
+}
+
+nav .menu ul li:hover i{
+    color: #333;
+    font-size: 43px;
+}
+
+nav .menu  ul li:hover i:before{
+    border-color: transparent;
+    border-radius: 500px;
+    line-height: 40px;
+    transition: color 0.2s linear 0s,
+                font-size 0.2s linear 0s,
+                border-color 0.2s linear 0.2s,
+                height 0.2s linear 0s,
+                line-height 0.2s linear 0s;
+}
+

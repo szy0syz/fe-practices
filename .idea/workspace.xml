@@ -18,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/018_20190504_Buttons-With-Hover/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="555">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/018_20190504_Buttons-With-Hover/style.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="56" selection-start-line="56" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -92,6 +92,8 @@
         <option value="$PROJECT_DIR$/017_20190504_Card-Effects/style.css" />
         <option value="$PROJECT_DIR$/018_20190504_Buttons-With-Hover/index.html" />
         <option value="$PROJECT_DIR$/018_20190504_Buttons-With-Hover/style.css" />
+        <option value="$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/style.css" />
+        <option value="$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/index.html" />
       </list>
     </option>
   </component>
@@ -107,9 +109,9 @@
     <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1081" />
+    <option name="x" value="1117" />
     <option name="y" value="23" />
-    <option name="width" value="836" />
+    <option name="width" value="800" />
     <option name="height" value="974" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -158,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,13 +171,12 @@
             <path>
               <item name="fe-practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="fe-practices" type="462c0819:PsiDirectoryNode" />
-              <item name="018_20190504_Buttons-With-Hover" type="462c0819:PsiDirectoryNode" />
+              <item name="019_20190509_Responsive-Navigation-Hover-Menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,15 +219,16 @@
       <workItem from="1556546965402" duration="2369000" />
       <workItem from="1556701020762" duration="6190000" />
       <workItem from="1556896482652" duration="4227000" />
-      <workItem from="1556980079145" duration="1101000" />
+      <workItem from="1556980079145" duration="1280000" />
+      <workItem from="1557404416425" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25253000" />
+    <option name="totallyTimeSpent" value="27646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1081" y="23" width="836" height="974" extended-state="0" />
+    <frame x="1117" y="23" width="800" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829352" weight="0.2822086" />
@@ -353,14 +356,28 @@
     <entry file="file://$PROJECT_DIR$/018_20190504_Buttons-With-Hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/018_20190504_Buttons-With-Hover/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="56" selection-start-line="56" selection-end-line="71" selection-end-column="1" />
+        <state relative-caret-position="624">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/019_20190509_Responsive-Navigation-Hover-Menu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
