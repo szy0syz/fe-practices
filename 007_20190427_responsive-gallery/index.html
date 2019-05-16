@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <title>Responsive Gallery</title>
+</head>
+<body>
+  <div class="gallery-section">
+    <div class="inner-width">
+      <h1>My Gallery</h1>
+      <div class="border"></div>
+
+      <div class="gallery">
+
+        <a href="imgs/1.jpg" class="image">
+          <img src="imgs/1.jpg" alt="1">
+        </a>
+
+        <a href="imgs/2.jpg" class="image">
+          <img src="imgs/2.jpg" alt="1">
+        </a>
+
+        <a href="imgs/3.jpg" class="image">
+          <img src="imgs/3.jpg" alt="1">
+        </a>
+
+        <a href="imgs/4.jpg" class="image">
+          <img src="imgs/4.jpg" alt="1">
+        </a>
+
+        <a href="imgs/5.jpg" class="image">
+          <img src="imgs/5.jpg" alt="1">
+        </a>
+
+        <a href="imgs/6.jpg" class="image">
+          <img src="imgs/6.jpg" alt="1">
+        </a>
+
+        <a href="imgs/7.jpg" class="image">
+          <img src="imgs/7.jpg" alt="1">
+        </a>
+
+        <a href="imgs/8.jpg" class="image">
+          <img src="imgs/8.jpg" alt="1">
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+</body>
+</html>

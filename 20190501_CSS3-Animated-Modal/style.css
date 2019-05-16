@@ -1,0 +1,130 @@
+html, body{
+    font-family: tahoma, serif;
+    min-height: 100%;
+    width: 100%;
+    line-height: 1.59;
+    margin: 0;
+    color: #333;
+    background-color: #fd527a;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 4em;
+    background: #fd527a;
+    border: 2px solid white;
+    color: white;
+    z-index: 10;
+    border-radius: 50px;
+    transition: all .3s ease-in;
+}
+
+.btn:hover{
+    background: #ce2b52;
+}
+
+.row{
+    width: 80%;
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row .sec {
+    background: #ebebeb;
+    text-align: center;
+    width: calc(50% - 4em - 4px - 40px);
+    margin: 0 10px;
+    float: left;
+    padding: 3em 2em;
+    border: 4px solid white;
+    margin-left: 22px;
+}
+
+.hs{
+    opacity: 0;
+    display: none;
+}
+
+.modal-wrapper{
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all .2s ease-in;
+    z-index: -10;
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+}
+
+.modal-wrapper .modal-content-header{
+    position: relative;
+}
+
+.modal-wrapper .modal-content-header .btn-close{
+    position: absolute;
+    color: #333;
+    font-family: Tahoma, sans-serif;
+    background: white;
+    padding: 0.5em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 50%;
+    top: -0.5em;
+    right: 0;
+    transition: all 0.5s ease-in;
+    font-weight: 500;
+}
+
+.modal-wrapper .modal-content-header .btn-close:hover {
+    font-weight: bold;
+    color: #333;
+    background: white;
+}
+
+.modal-wrapper .modal-box{
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.2s ease-in;
+    background: #fb527a;
+    color: white;
+    height: auto;
+    width: 50%;
+    margin: 2em auto;
+    border: 2px solid white;
+    padding: 1rem 2rem;
+}
+
+.modal-wrapper .modal-content{
+    padding: 1em 2em;
+}
+
+.modal-wrapper .modal-content-body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+input[id ^= 'modal']:checked + .modal-wrapper{
+    opacity: 1;
+    z-index: 100;
+    transform: scale(1);
+    transition: all 0.2s ease-out;
+    height: 100vh;
+    width: 100vw;
+}
+
+input[id ^= 'modal']:checked + .modal-wrapper > .modal-box{
+    opacity: 1;
+    z-index: 100;
+    transform: scale(1);
+    transition: all 0.3s ease-out .2s;
+}
