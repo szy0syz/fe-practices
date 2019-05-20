@@ -8,6 +8,21 @@
 
 ![20190520](/021_20190520_CSS-Card-Hover/preview.gif)
 
+* 🎉 实现原理：
+  * .face 都设absolute，“后”覆盖“前”
+  * 对别对卡片容器.face2和里面h2对transition
+  * 改变高度和设置容器字体大小
+  * 这里使用em，非常恰当，因为em就是根据上级父元素大小来定子元素大小
+* ✅ 知识点：
+  * grid布局
+    * 在.container 中设宽度1200px，然后定义为grid布局，设置grid布局中每列的样式，最小350px的宽度，最大1fr(均分)，auto-fit表示一行能装几个装几个card;
+    * grid-gap 设置每个轨道之间的间隙，不含最左和最右；
+    * 使用margin让其水平居中
+  * 对半视差折纸展示
+    * 在容器内部加个before的伪类，然后占位50%和10%的透明
+  * 关于卡片内部布局
+    * 先设两个展示也都absolute，因html元素先后顺序，天生后面元素覆盖前面元素，则不需要设置z-index
+
 ## 20190516 回到顶部
 
 * ✅ 知识点：`html { scroll-behavior: smooth; }`
