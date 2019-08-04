@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    overflow-x: hidden;
+}
+
+input[type="checkbox"] {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 10000;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.icon {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 10001;
+    background: #000;
+    pointer-events: none;
+}
+
+.icon:before {
+    content: 'colose';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+input[type="checkbox"]:checked ~ .icon:before {
+    content: 'menu';
+}
+
+ul {
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100vh;
+    background: #000;
+    transition: 0.5s;
+    z-index: 10000;
+    overflow-y: auto;
+}
+
+input[type="checkbox"]:checked ~ ul{
+    left: -300px;
+}
+
+ul li {
+    list-style: none;
+}
+ul li a {
+    display: block;
+    color: #fff;
+    padding: 12px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    transform: translateX(10px);
+    color: #ff0;
+}
+
+section {
+    position: relative;
+    left: 300px;
+    padding: 100px;
+    box-sizing: border-box;
+    transform: 0.5s;
+}
+
+input[type="checkbox"]:checked ~ section {
+    left: 0;
+}
+
+section h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
