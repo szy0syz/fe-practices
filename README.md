@@ -8,6 +8,12 @@
 
 ![20190719](/028_20190810_Glowing_Text/preview.gif)
 
+## 20190729 3D卡片翻转效果
+
+> 效果一般点
+
+![20190729](/025_20190729_3D_Flip_Card/preview.gif)
+
 ## 20190719 首页圆形header效果
 
 ![20190719](/024_20190719_Curved-Header/preview.jpg)
