@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.bootcss.com/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdn.bootcss.com/p5.js/0.9.0/p5.min.js"></script>
+    <script>
+      function setup() {
+        createCanvas(400, 200);
+      }
+
+      function draw() {
+        background(20);
+        noStroke();
+        for (let i = 0; i < 8000; i++) {
+          rect(random(width), random(height), 3, 3);
+        }
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
