@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pure CSS3 Dark Mode Effects For Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+      }
+
+      input[type="checkbox"] {
+        position: fixed;
+        z-index: 1;
+        top: 40px;
+        right: 100px;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+
+      input[type="checkbox"]::before {
+        content: 'Dark';
+        position: absolute;
+        color: #fff;
+        background: #000;
+        padding: 10px 20px;
+      }
+
+      input[type="checkbox"]:checked::before {
+        content: 'Light';
+        color: #000;
+        background: #fff;
+      }
+
+      input[type="checkbox"]:checked ~ *{
+        filter: invert(1);
+      }
+
+
+      section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        min-height: 100vh;
+        padding: 80px 100px;
+      }
+
+      section > p {
+        margin-bottom: 18px;
+      }
+
+      section img {
+        max-width: 500px;
+        float: left;
+        margin: 10px 20px 10px 0;
+        filter: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox"/>
+    <section>
+      <h2>Pure CSS Dark / Ligth Mode Tricks</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore nobis maxime, praesentium fuga placeat omnis error fugiat necessitatibus maiores laudantium numquam quos rem distinctio, ut repudiandae, iste dolorum iusto?</p>
+      <img src="../007_20190427_responsive-gallery/imgs/8.jpg"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, asperiores at nam sapiente iste debitis suscipit commodi laboriosam voluptate nihil dolore repellendus aut minima repudiandae veniam quo tempore ducimus maxime? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam pariatur neque, quae quis eius quod illo cumque praesentium. Fugit, maiores. Ut, quas! Consequuntur rem doloribus cum nemo quos exercitationem adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id alias impedit corrupti voluptates sed, eligendi ad! Voluptate molestias commodi, eos beatae, maiores assumenda qui maxime quo porro nemo blanditiis!</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum voluptas officiis similique quam quasi hic quo quaerat voluptatibus, impedit quisquam consequuntur, dolorum ea architecto maxime distinctio velit nisi rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam pariatur neque, quae quis eius quod illo cumque praesentium. Fugit, maiores. Ut, quas! Consequuntur rem doloribus cum nemo quos exercitationem adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id alias impedit corrupti voluptates sed, eligendi ad! Voluptate molestias commodi, eos beatae, maiores assumenda qui maxime quo porro nemo blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolore libero dolorum corporis doloribus sunt adipisci alias necessitatibus, iste ab, animi fuga fugit voluptates accusantium? Amet reprehenderit dignissimos aliquid? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatem veniam nesciunt totam recusandae reiciendis, natus provident ad aperiam aliquam magnam ea quaerat amet! Officiis hic nobis porro vel enim.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum voluptas officiis similique quam quasi hic quo quaerat voluptatibus, impedit quisquam consequuntur, dolorum ea architecto maxime distinctio velit nisi rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam pariatur neque, quae quis eius quod illo cumque praesentium. Fugit, maiores. Ut, quas! Consequuntur rem doloribus cum nemo quos exercitationem adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id alias impedit corrupti voluptates sed, eligendi ad! Voluptate molestias commodi, eos beatae, maiores assumenda qui maxime quo porro nemo blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolore libero dolorum corporis doloribus sunt adipisci alias necessitatibus, iste ab, animi fuga fugit voluptates accusantium? Amet reprehenderit dignissimos aliquid? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatem veniam nesciunt totam recusandae reiciendis, natus provident ad aperiam aliquam magnam ea quaerat amet! Officiis hic nobis porro vel enim.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eum voluptas officiis similique quam quasi hic quo quaerat voluptatibus, impedit quisquam consequuntur, dolorum ea architecto maxime distinctio velit nisi rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam pariatur neque, quae quis eius quod illo cumque praesentium. Fugit, maiores. Ut, quas! Consequuntur rem doloribus cum nemo quos exercitationem adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum id alias impedit corrupti voluptates sed, eligendi ad! Voluptate molestias commodi, eos beatae, maiores assumenda qui maxime quo porro nemo blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolore libero dolorum corporis doloribus sunt adipisci alias necessitatibus, iste ab, animi fuga fugit voluptates accusantium? Amet reprehenderit dignissimos aliquid? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit voluptatem veniam nesciunt totam recusandae reiciendis, natus provident ad aperiam aliquam magnam ea quaerat amet! Officiis hic nobis porro vel enim.</p>
+    </section>
+  </body>
+</html>
