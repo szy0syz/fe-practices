@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive CSS Text Clip-Mask Parallax Scrolling Effects</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: 'Poppins';
+      }
+
+      section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+      }
+
+      section .content {
+        text-align: center;
+      }
+
+      section .content h2 {
+        font-size: 24vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 1em;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-attachment: fixed;
+      }
+
+      section:nth-child(1) .content h2 {
+        background-image: url(bg1.jpg);
+      }
+
+      section:nth-child(2) .content h2 {
+        background-image: url(bg2.jpg);
+      }
+
+      section:nth-child(3) .content h2 {
+        background-image: url(bg3.jpg);
+      }
+
+      section .content p {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      section .content a {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #000;
+        text-decoration: none;
+        margin-top: 20px;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="content">
+        <h2>Fire</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque optio culpa eos dolorem consectetur
+          accusamus. Consequuntur sint impedit accusamus labore, saepe laborum enim cum modi excepturi
+          cupiditate molestiae inventore harum!
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+    <section>
+      <div class="content">
+        <h2>Water</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolor omnis beatae modi magnam ad
+          vero labore! Amet, impedit vitae eius, velit voluptatem voluptas voluptatum veritatis nisi quibusdam
+          culpa possimus?
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+    <section>
+      <div class="content">
+        <h2>Sand</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dignissimos totam animi voluptatum
+          alias, velit eos, eaque minima, accusamus iusto doloribus dolores! Voluptate, quo! Laboriosam
+          numquam iusto dignissimos qui nam?
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+  </body>
+</html>

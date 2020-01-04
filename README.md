@@ -6,9 +6,13 @@
 
 > 20200104: 刷到999应该能进阶一些吧~
 
+## 20200104-3 文字和背景轮滚视觉差
+
+![202001043](/037_20200104_Text-Clip-Mask-Parallax-Scrolling/preview.gif)
+
 ## 20200104-2 按钮背景刷笔效果
 
-![202001041](/036_20200104_Creative-Button-Hover/preview.gif)
+![202001042](/036_20200104_Creative-Button-Hover/preview.gif)
 
 ## 20200104-1 思维框子
 
