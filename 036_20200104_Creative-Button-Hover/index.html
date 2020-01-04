@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS3 Creative Button Hover Effects</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins";
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .container a {
+      position: relative;
+      width: 300px;
+      height: 75px;
+      margin: 10px 0;
+      font-size: 24px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    .container a:hover {
+      color: #fff;
+    }
+
+    .container a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: url(btn-bg1.png);
+      background-size: cover;
+      transform-origin: left;
+      transition: 0.5s;
+    }
+
+    .container a:hover::before {
+      width: 100%;
+    }
+
+    .container a:nth-child(2)::before {
+      background: url(btn-bg2.png);
+      background-size: cover;
+    }
+
+    .container a span {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="#"><span>Read More</span></a>
+    <a href="#"><span>Read More</span></a>
+  </div>
+</body>
+</html>
