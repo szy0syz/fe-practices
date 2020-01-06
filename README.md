@@ -10,6 +10,8 @@
 
 ![20200106](/038_20200106_Creative-Profile-Card-Hover/preview.gif)
 
+> get到css书写规整新技能
+
 ## 20200104-3 文字和背景轮滚视觉差
 
 ![202001043](/037_20200104_Text-Clip-Mask-Parallax-Scrolling/preview.gif)
