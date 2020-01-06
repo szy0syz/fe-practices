@@ -5,13 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Creative Profile Card Hover Effect</title>
-    <link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/5.12.0-1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.css" />
     <style>
-      /* .bg-1 {
-        background: url("./bg-1.jpeg") no-repeat center;
-        background-size: cover;
-      } */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: all 0.4s ease-in;
+      }
+
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        position: relative;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 100%;
+        color: #333;
+      }
+
+      .wrapper {
+        width: 320px;
+        height: 558px;
+        background: #141415;
+        transition: background 0.5s ease;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      .wrapper .profile {
+        margin-top: 2.2em;
+        position: relative;
+      }
+
+      .wrapper .profile:after {
+        width: 100%;
+        height: 1px;
+        content: '';
+        display: block;
+        margin-top: 1.3em;
+        background: #e9eff7;
+      }
+
+      .wrapper .profile .check {
+        position: absolute;
+        right: 5em;
+        bottom: 15.7em;
+      }
+
+      .wrapper .profile .check i {
+        color: white;
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 100%;
+        background: linear-gradient(to bottom right, #c90a7d, #ff48a0);
+      }
+
+      .wrapper .profile .thumbnail {
+        height: 124px;
+        width: 124px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5em;
+        border-radius: 100%;
+        border: 3px solid white;
+        padding: 7px;
+      }
+
+      .wrapper .profile .name {
+        color: #2d354a;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .wrapper .profile .title {
+        color: #7c8097;
+        font-size: 0.75em;
+        font-weight: 300;
+        text-align: center;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 0.5em;
+        padding-bottom: 0.7em;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      .wrapper .profile .desc {
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 1.3em;
+      }
+
+      .wrapper .profile .btn {
+        color: white;
+        width: 130px;
+        height: 42px;
+        outline: none;
+        border: none;
+        display: block;
+        cursor: pointer;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 70px;
+        border: 2px solid white;
+      }
+
+      .wrapper .social-icons {
+        display: flex;
+        margin-top: 1.2em;
+        justify-content: space-between;
+      }
+
+      .wrapper .social-icons .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .wrapper .social-icons .icon a {
+        color: white;
+        width: 59px;
+        height: 59px;
+        font-size: 28px;
+        line-height: 59px;
+        text-align: center;
+        border-radius: 30px;
+      }
+
+      .wrapper .social-icons .icon:nth-of-type(1) a {
+        background: linear-gradient(to bottom right, rgba(37, 45, 117, 0.94), #ff48a0);
+      }
+
+      .wrapper .social-icons .icon:nth-of-type(2) a {
+        background: linear-gradient(to bottom right, rgba(8, 23, 236, 0.781), #ff48a0);
+      }
+
+      .wrapper .social-icons .icon:nth-of-type(3) a {
+        background: linear-gradient(to bottom right, rgba(41, 186, 175, 0.87), #ff48a0);
+      }
+
+      .wrapper .social-icons .icon h4 {
+        color: white;
+        font-size: 1em;
+        margin-top: 1em;
+        margin-bottom: .1em;
+      }
+
+      .wrapper .social-icons .icon p {
+        color: white;
+        font-size: 14px;
+      }
+
+      .bg-1:hover {
+        background: #537895;
+      }
+
+      .bg-3:hover {
+        background: #ff417c;
+      }
+
+      .bg-2:hover {
+        background: #0190f5;
+      }
+
+      h3,
+      p,
+      .title:hover {
+        color: white !important;
+      }
     </style>
   </head>
   <body>
@@ -20,7 +196,6 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="wrapper bg-1">
-
               <div class="profile">
                 <img src="./bg-1.jpeg" alt="a1" class="thumbnail" />
                 <div class="check"><i class="fa fa-check"></i></div>
@@ -30,10 +205,10 @@
                 <button type="button" class="btn">Hire me</button>
               </div>
 
-              <div class="socail-icon">
+              <div class="social-icons">
                 <div class="icon">
                   <a href="#">
-                    <i class="fa fa-dribbble"></i>
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
                   </a>
                   <h4>11.2k</h4>
                   <p>Followers</p>
@@ -54,7 +229,84 @@
                   <h4>9.1k</h4>
                   <p>Followers</p>
                 </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4">
+            <div class="wrapper bg-2">
+              <div class="profile">
+                <img src="./bg-2.jpeg" alt="a1" class="thumbnail" />
+                <div class="check"><i class="fa fa-check"></i></div>
+                <h3 class="name">Tom</h3>
+                <p class="title">JavaScript developer</p>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button type="button" class="btn">Hire me</button>
+              </div>
+
+              <div class="social-icons">
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                  </a>
+                  <h4>11.2k</h4>
+                  <p>Followers</p>
+                </div>
+
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <h4>7.4k</h4>
+                  <p>Followers</p>
+                </div>
+
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-behance"></i>
+                  </a>
+                  <h4>9.1k</h4>
+                  <p>Followers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="wrapper bg-3">
+              <div class="profile">
+                <img src="./bg-3.jpeg" alt="a1" class="thumbnail" />
+                <div class="check"><i class="fa fa-check"></i></div>
+                <h3 class="name">Lily</h3>
+                <p class="title">JavaScript developer</p>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button type="button" class="btn">Hire me</button>
+              </div>
+
+              <div class="social-icons">
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                  </a>
+                  <h4>11.2k</h4>
+                  <p>Followers</p>
+                </div>
+
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <h4>7.4k</h4>
+                  <p>Followers</p>
+                </div>
+
+                <div class="icon">
+                  <a href="#">
+                    <i class="fa fa-dribbble"></i>
+                  </a>
+                  <h4>9.1k</h4>
+                  <p>Followers</p>
+                </div>
               </div>
             </div>
           </div>

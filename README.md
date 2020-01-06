@@ -6,6 +6,10 @@
 
 > 20200104: 刷到999成神，刷到9999超神~
 
+## 20200106 个人资料卡特效
+
+![20200106](/038_20200106_Creative-Profile-Card-Hover/preview.gif)
+
 ## 20200104-3 文字和背景轮滚视觉差
 
 ![202001043](/037_20200104_Text-Clip-Mask-Parallax-Scrolling/preview.gif)
