@@ -6,6 +6,10 @@
 
 > 20200104: 刷到999成神，刷到9999超神~
 
+## 20200106 水波浪字体效果
+
+![20200106](/039_20190426_Water-Animation-Text/preview.gif)
+
 ## 20200106 个人资料卡特效
 
 ![20200106](/038_20200106_Creative-Profile-Card-Hover/preview.gif)
@@ -123,7 +127,7 @@
 
 ## 20190501 CSS分屏鼠标聚焦效果
 
-![201905012](/20190502_CSS-Split-Screen-Hover/preview.gif)
+![201905012](/015_20190502_CSS-Split-Screen-Hover/preview.gif)
 
 * 🎉 实现原理：
   * 外层有个flex容器放N个图片，每个图片设flex-grow和transition
@@ -136,23 +140,23 @@
 
 ## 20190501 纯CSS3实现动画弹窗
 
-![201905011](/20190501_CSS3-Animated-Modal/preview.gif)
+![201905011](/014_20190501_CSS3-Animated-Modal/preview.gif)
+
+## 20190429 图片聚焦效果
+
+![20190427](/013_20190429_Image-Hover/preview.gif)
+
+## 20190427 首页双视觉
 
 ## 20190429 打字效果
 
-![20190427](/20190429_Text-Typing/preview.gif)
+![20190427](/012_20190429_Text-Typing/preview.gif)
 
 * 🎉 实现原理：使用帧动画将承载文本的容器宽度(width)一点一点的放大，直到所有文字全部展现。
 * ✅ 知识点：
   * `ch` 数字0️⃣的宽度，好比理解为一个等宽字体的短度，这里使用ch精确控制容器宽度(到底要显示几个字母)
   * `white-space: nowrap;` 规定段落中的文本是否换行，因为容器刚开始宽度很小，必须设置nowarp不换行，记得超出部分隐藏
   * `steps` 在css3-animation中，该属性表示动画分为几段。怎么理解？简单理解显示器刷新频率。
-
-## 20190429 图片聚焦效果
-
-![20190427](/20190429_Image-Hover/preview.gif)
-
-## 20190427 首页双视觉
 
 ![20190427](/011_20190427_Dual-Parallax-Effect/preview.gif)
 
