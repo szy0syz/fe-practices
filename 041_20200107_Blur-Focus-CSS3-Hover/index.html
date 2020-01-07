@@ -5,13 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blur & Focus CSS 3 Hover Effects - CSS 3 Effects</title>
+    <style>
+      body {
+        background: #ebebeb;
+        color: #ef585e;
+        font-family: Arial, Helvetica, sans-serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      a.btn {
+        background: #ef4478;
+        border-radius: 4px;
+        color: white;
+        display: inline-flex;
+        padding: 7px 30px 8px;
+        text-decoration: none;
+        transition: all 0.1s 0s ease-out;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .no-touch a.btn:hover,
+      a.btn:active {
+        background: #008a93;
+        transform: translate3d(0, 1px 0);
+        transition: all 0.25s 0s ease-out;
+      }
+
+      div.cards {
+        margin: 80px auto;
+        max-width: 970px;
+        text-align: center;
+      }
+
+      div.card {
+        background: white;
+        display: inline-block;
+        margin: 8px;
+        max-width: 300px;
+        perspective: 1000;
+        position: relative;
+        text-align: left;
+        transition: all 0.3s 0s ease-in;
+        z-index: 1;
+      }
+
+      div.card img {
+        max-width: 300px;
+      }
+
+      div.card div.card-title {
+        background: white;
+        padding: 7px 15px 10px;
+        position: relative;
+        z-index: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      div.card div.card-title a.toggle-info {
+        border-radius: 32px;
+        height: 32px;
+        padding: 0;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        width: 32px;
+      }
+
+      div.card div.card-title a.toggle-info span {
+        background: white;
+        display: block;
+        height: 2px;
+        position: absolute;
+        top: 17px;
+        transition: all 0.15s 0s ease-out;
+        width: 12px;
+      }
+
+      div.card div.card-title a.toggle-info span.left {
+        right: 14px;
+        transform: rotate(45deg);
+      }
+      div.card div.card-title a.toggle-info span.right {
+        left: 14px;
+        transform: rotate(-45deg);
+      }
+      div.card div.card-title h2 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        margin: 0;
+        padding: 0;
+      }
+      div.card div.card-title h2 small {
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+      }
+      div.card div.card-description {
+        padding: 0 15px 10px;
+        position: relative;
+        font-size: 14px;
+      }
+      div.card div.card-actions {
+        box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+        padding: 10px 15px 20px;
+        text-align: center;
+      }
+      div.card div.card-flap {
+        background: #d9d9d9;
+        position: absolute;
+        width: 100%;
+        transform-origin: top;
+        transform: rotateX(-90deg);
+      }
+      div.card div.flap1 {
+        transition: all 0.3s 0.3s ease-out;
+        z-index: -1;
+      }
+      div.card div.flap2 {
+        transition: all 0.3s 0s ease-out;
+        z-index: -2;
+      }
+      div.cards.showing div.card {
+        cursor: pointer;
+        opacity: 0.6;
+        transform: scale(0.88);
+      }
+      .no-touch div.cards.showing div.card:hover {
+        opacity: 0.94;
+        transform: scale(0.92);
+      }
+      div.card.show {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+      }
+      div.card.show div.card-title a.toggle-info {
+        background: #ff6666 !important;
+      }
+      div.card.show div.card-title a.toggle-info span {
+        top: 15px;
+      }
+      div.card.show div.card-title a.toggle-info span.left {
+        right: 10px;
+      }
+      div.card.show div.card-title a.toggle-info span.right {
+        left: 10px;
+      }
+      div.card.show div.card-flap {
+        background: #ffffff;
+        transform: rotateX(0deg);
+      }
+      div.card.show div.flap1 {
+        transition: all 0.3s 0s ease-out;
+      }
+      div.card.show div.flap2 {
+        transition: all 0.3s 0.2s ease-out;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   </head>
   <body>
     <div class="cards">
       <div class="card">
-        <img src="./one.jpg" alt="one" class="card-image" />
+        <img class="card-image" src="./one.jpg" alt="" />
         <div class="card-title">
-          <a href="#" class="toggle-info btn">
+          <a href="" class="toggle-info btn">
             <span class="left"></span>
             <span class="right"></span>
           </a>
@@ -23,14 +182,180 @@
 
         <div class="card-flap flap1">
           <div class="card-description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
           </div>
           <div class="card-flap flap2">
-            <div class="card-actions"><a href="#" class="btn">READ MORE</a></div>
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
           </div>
         </div>
+      </div>
 
+      <div class="card">
+        <img class="card-image" src="./two.jpg" alt="" />
+        <div class="card-title">
+          <a href="" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            INTERACTIVE DESIGN
+            <small>INTERACTIVE HOVER EFFECT</small>
+          </h2>
+        </div>
+
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-image" src="./five.jpg" alt="" />
+        <div class="card-title">
+          <a href="" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            HOVER EFFECT
+            <small>INTERACTIVE HOVER EFFECT</small>
+          </h2>
+        </div>
+
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-image" src="./four.jpg" alt="" />
+        <div class="card-title">
+          <a href="" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            HOVER EFFECT
+            <small>INTERACTIVE HOVER EFFECT</small>
+          </h2>
+        </div>
+
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-image" src="./six.jpg" alt="" />
+        <div class="card-title">
+          <a href="" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            HOVER EFFECT
+            <small>INTERACTIVE HOVER EFFECT</small>
+          </h2>
+        </div>
+
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-image" src="./seven.jpg" alt="" />
+        <div class="card-title">
+          <a href="" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            HOVER EFFECT
+            <small>INTERACTIVE HOVER EFFECT</small>
+          </h2>
+        </div>
+
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, recusandae!
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="" class="btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+    <script>
+      $(document).ready(function() {
+        var zindex = 10;
+
+        $("div.card").click(function(e) {
+          e.preventDefault();
+
+          var isShowing = false;
+
+          if ($(this).hasClass("show")) {
+            isShowing = true;
+          }
+
+          if ($("div.cards").hasClass("showing")) {
+            // a card is already in view
+            $("div.card.show").removeClass("show");
+
+            if (isShowing) {
+              // this card was showing - reset the grid
+              $("div.cards").removeClass("showing");
+            } else {
+              // this card isn't showing - get in with it
+              $(this)
+                .css({ zIndex: zindex })
+                .addClass("show");
+            }
+
+            zindex++;
+          } else {
+            // no cards in view
+            $("div.cards").addClass("showing");
+            $(this)
+              .css({ zIndex: zindex })
+              .addClass("show");
+
+            zindex++;
+          }
+        });
+      });
+    </script>
   </body>
 </html>
