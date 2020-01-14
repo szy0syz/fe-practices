@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Super landing page design</title>
+  </head>
+  <body>
+    <div id="container">
+      <nav class="navbar">
+        <a href="">HOME</a>
+        <a href="">ABOUT</a>
+        <a href="">PRODUCTS</a>
+        <a href="">FEATURES</a>
+        <a href="">BUY NOW</a>
+      </nav>
+
+      <div id="background"></div>
+      <div class="section">
+        <h1 id="title" class="margin-top">SUPER LANDING</h1>
+        <h2 class="less-margin">a <span class="highlight">Wristband</span> that lets you</h2>
+        <br />
+        <h2>wear fitnes <span class="highlight"> your way</span>.</h2>
+
+        <h1 class="look">Find your word</h1>
+        <div class="alta">
+          <img src="./im.png" alt="alta" id="alta" />
+          <div class="button rosegold" id="rosegold" onclick="rosegoldColor()"></div>
+          <div class="button coral" id="coral" onclick="coralColor()"></div>
+          <div class="button fuschia" id="fuschia" onclick="fuschiaColor()"></div>
+          <div class="button black" id="black" onclick="goldColor()"></div>
+        </div>
+      </div>
+
+      <p id="desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolorem, unde aperiam, tempore
+        reprehenderit eum consectetur voluptate suscipit nemo in ex deleniti, libero ab illo rerum at, itaque
+        dolorum. Impedit!
+      </p>
+    </div>
+
+    <script>
+      let alta = document.getElementById('alta');
+      let background = document.getElementById('background');
+      let title = document.getElementById('title');
+
+      function rosegoldColor() {
+        alta.src = 'non.png';
+        background.style.backgroundColor = 'deepskyblue';
+        title.style.color = 'deepskyblue';
+      }
+
+      function coralColor() {
+        alta.src = 'im.png';
+        background.style.backgroundColor = '#ff7a6c';
+      }
+
+      function coralColor() {
+        alta.src = 'im.png';
+        background.style.backgroundColor = '#FF7A6C';
+        title.style.color = '#FF7A6C';
+      }
+
+      function fuschiaColor() {
+        alta.src = 'ima.png';
+        background.style.backgroundColor = '#5b2e9a';
+        title.style.color = '#5b2e9a';
+      }
+
+      function goldColor() {
+        alta.src = 'non.png';
+        background.style.backgroundColor = '#e0bc4d';
+        title.style.color = '#e0bc4d';
+      }
+    </script>
+  </body>
+</html>
