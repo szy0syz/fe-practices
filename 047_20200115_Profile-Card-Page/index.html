@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>Profile Card with Social Media Icon</title>
+    <style>
+      /* body {
+        height: 100vh;
+        width: 100vw;
+        background: url('./beach.jpg') center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+      }
+
+      .container {
+        width: 599px;
+        height: 400px;
+        margin: auto;
+        position: relative;
+      }
+
+      .profile {
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        height: 350px;
+        width: 220px;
+        box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .test {
+        position: absolute;
+        left: 21.5%;
+        top: 112%;
+      }
+
+      .test h2 {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 8px;
+        margin-left: 54px;
+      }
+
+      .top {
+        position: absolute;
+        width: 100%;
+        height: 47%;
+        background: #495771;
+        background-image: url('./op.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+
+      .bottom {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 47%;
+        background: #ffe3d8;
+      }
+
+      h1,
+      h2,
+      p {
+        font-family: Tahoma;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+      .h1 {
+        color: #495771;
+        margin-top: 13%;
+        font-size: 1.2em;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        color: #c98941;
+        tab-size: 0.5em;
+        text-transform: uppercase;
+        margin-top: -7px;
+      }
+
+      p {
+        color: #495771;
+        font-size: 0.4em;
+      }
+
+      p.fa {
+        color: #a0b79f;
+        font-size: 7px;
+      }
+
+      .line {
+        border-bottom: 2px solid #c98491;
+        width: 18px;
+        left: 41%;
+        top: 58%;
+        position: absolute;
+      }
+
+      button {
+        padding: 15px;
+        font-size: 0.5em;
+        width: 95px;
+        background: #495771;
+        font-family: Tahoma;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #ffe3d8;
+        border: none;
+        margin-top: 40px;
+        opacity: 0.8;
+        margin-right: 7px;
+      }
+
+      button:hover {
+        opacity: 1;
+        transition: all 0.3 ease;
+      }
+
+      .margin-left {
+        margin-left: 10px;
+      }
+
+      .menu {
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        opacity: 0.9;
+        position: absolute;
+        right: -1px;
+        transition: all 0.7s ease;
+      }
+
+      .bar {
+        display: block;
+        height: 3px;
+        width: 20px;
+        background: #ffe3d8;
+        margin: 4px auto;
+        transition: all 0.5s ease;
+      }
+
+      .click-top {
+        margin-top: 0;
+      }
+
+      .menu {
+        z-index: 3;
+      } */
+
+      @import url('https://fonts.googleapis.com/css?family=Raleway');
+      body {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(beach.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .container {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        position: relative;
+      }
+      .profile {
+        position: absolute;
+        left: 30%;
+        top: 25%;
+        height: 350px;
+        width: 220px;
+        box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+      }
+      .text {
+        position: absolute;
+        left: 21.5%;
+        top: 119%;
+      }
+      .text h2 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 8px;
+        margin-left: 54px;
+      }
+      .top {
+        position: absolute;
+        width: 100%;
+        height: 46%;
+        background: #495771;
+        background-image: url('op.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      .bottom {
+        position: absolute;
+        width: 100%;
+        height: 54%;
+        top: 46%;
+        background: #ffe3d8;
+      }
+      h1,
+      h2,
+      p {
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      h1 {
+        color: #495771;
+        margin-top: 13%;
+        font-size: 1.2em;
+        text-transform: uppercase;
+      }
+      h2 {
+        color: #c98491;
+        font-size: 0.5em;
+        text-transform: lowercase;
+        margin-top: -7px;
+      }
+      p {
+        color: #495771;
+        font-size: 0.4em;
+      }
+      p .fas {
+        color: #a0b79f;
+        font-size: 7px;
+      }
+      .line {
+        border-bottom: 2px solid #c98491;
+        width: 18%;
+        left: 41%;
+        top: 58%;
+        position: absolute;
+      }
+      button {
+        padding: 15px;
+        font-size: 0.5em;
+        width: 95px;
+        background: #495771;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #ffe3d8;
+        border: none;
+        margin-top: 40px;
+
+        margin-right: 7px;
+      }
+      button:hover {
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+      .margin-left {
+        margin-left: 10px;
+      }
+      /* hamburger menu */
+      .menu {
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        opacity: 0.9;
+        position: absolute;
+        right: -1px;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+      }
+      /*hamburger menu animation*/
+      .bar {
+        display: block;
+        height: 3px;
+        width: 20px;
+        background: #ffe3d8;
+        margin: 4px auto;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      .click-top {
+        margin-top: 0;
+      }
+      .menu {
+        z-index: 3;
+      }
+      .menu.open .click-top {
+        background: #495771;
+        transform: translateY(7px) rotateZ(45deg);
+      }
+      .menu.open .click-middle {
+        opacity: 0;
+      }
+      .menu.open .click-bottom {
+        background: #495771;
+        transform: translateY(-7px) rotateZ(-45deg);
+      }
+      /*overlay menu*/
+      #overlay {
+        position: absolute;
+        background: #e5b879;
+        top: 0;
+        left: 0;
+        width: 101%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s, visibility 0.5s, height 0.5s;
+        z-index: 2;
+      }
+      #overlay.view {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        width: 101%;
+        z-index: 2;
+        transition: opacity 0.5s, visibility 0.5s, height 0.5s;
+      }
+      #overlay:after {
+        transition: 0.5s;
+      }
+      .nav {
+        margin-top: 60px;
+        margin-left: 15px;
+      }
+      .nav li {
+        list-style-type: none;
+        margin: 28px auto;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.7em;
+      }
+      .nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #495771;
+        padding: 10px;
+        border: solid 1px transparent;
+      }
+      .nav a:hover {
+        color: #ffe3d8;
+        transition: all 0.5s ease;
+        border: solid 1px transparent;
+        background: #495771;
+        padding: 10px;
+      }
+      .background {
+        height: 0vh;
+        top: 0;
+        width: 100vw;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        /* background-position: left 20% top 0px; */
+        transition: opacity 0.5s, visibility 0.5s, height 0.5s;
+      }
+      .show {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(ur.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left 20% top 0px;
+        visibility: visible;
+        opacity: 2;
+        transition: opacity 0.5s, visibility 0.5s, height 0.5s;
+        position: absolute;
+        overflow: hidden !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <div id="overlay">
+          <ul class="nav">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-github"></i>Github</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-codepen"></i>Codepen</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i>Linkedin</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="top">
+          <div class="menu">
+            <div class="bar click-top"></div>
+            <div class="bar click-middle"></div>
+            <div class="bar click-bottom"></div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <h1>ANGLE LUE</h1>
+          <h2>Front End Developer</h2>
+          <p>
+            <i class="fa fa-location-arrow"></i>
+            Holo Gram Usa
+          </p>
+          <div class="line"></div>
+          <button class="margin-left">message</button>
+          <button>Follow</button>
+        </div>
+      </div>
+
+      <!-- <div class="test">
+        <h2>subscribe now us for more videos</h2>
+      </div> -->
+    </div>
+
+    <div class="background"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $('.menu').click(function() {
+        $(this).toggleClass('open');
+        $('#overlay').toggleClass('view');
+        $('.background').toggleClass('show');
+      });
+    </script>
+  </body>
+</html>
