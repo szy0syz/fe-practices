@@ -35,11 +35,13 @@
 
 ![202001081](/042_20200108_Neon-Light-CSS3/preview.gif)
 
-## 041-20200107
+## 041-20200107 卡片点击特效
 
 * `text-rendering: optimizeLegibility;` 浏览器在绘制文本时将着重考虑易读性，而不是渲染速度和几何精度.它会使字间距和连字有效。 (Chrome上没效果)
 
 ![202001071](/041_20200107_Blur-Focus-CSS3-Hover/lig.png)
+
+![202001071](/041_20200107_Blur-Focus-CSS3-Hover/preview.gif)
 
 ## 040-20200107 CSS飞翔卡片
 
