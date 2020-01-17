@@ -21,6 +21,156 @@
         line-height: 1;
         color: #423e37;
       }
+
+      .page {
+        width: 100vw;
+        height: 100vh;
+        min-height: 700px;
+        overflow: hidden;
+        margin-left: -25px;
+        margin-top: 45px;
+      }
+
+      .tabs-controls {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 50px 0 100px;
+        list-style: none;
+      }
+
+      .tabs-controls-link {
+        position: relative;
+        display: block;
+        padding: 15px 32px;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      .tabs-controls-link::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: 0;
+        height: 4px;
+        background-color: white;
+        border-radius: 2px;
+        margin: auto;
+        content: '';
+        transition: width 0.4s;
+      }
+
+      .tabs-controls-link-active::after {
+        width: 100%;
+      }
+
+      .cards-container {
+        position: relative;
+        z-index: 1;
+        width: 500px;
+        height: calc(100vh - 205px);
+        margin: 0 auto;
+      }
+
+      .card {
+        position: absolute;
+        width: 500px;
+        height: 300px;
+        background-color: #edebd7;
+        border: 1px solid #333;
+        box-shadow: 9px 11px 3px 0px rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        padding: 40px;
+        transition: transform 0.3s, opacity 0.2s;
+      }
+
+      .card.hidden {
+        z-index: 100;
+        background-color: white;
+        color: white;
+        opacity: 0;
+        transition: color 0.5s, background-color 0.5s, transform 1s, opacity 0.2s 0.4s;
+      }
+
+      .card.hidden h1 {
+        color: white;
+        transition: color 0.5s;
+      }
+
+      .card.hidden:nth-of-type(1) {
+        transform: rotate(-71deg) translateX(101%) translateY(-42%) scale(0.7) skewX(3deg) skewY(5deg);
+      }
+
+      .card.hidden:nth-of-type(2) {
+        transform: rotate(-20deg) translateX(101%) translateY(-30%) scale(0.7) skewX(7deg) skewY(12deg);
+      }
+
+      .card.hidden:nth-of-type(3) {
+        transform: rotate(-89deg) translateX(101%) translateY(-41%) scale(1) skewX(4deg) skewY(1deg);
+      }
+
+      .card.hidden:nth-of-type(4) {
+        transform: rotate(-88deg) translateX(101%) translateY(-27%) scale(0.5) skewX(9deg) skewY(11deg);
+      }
+
+      .card.hidden:nth-of-type(5) {
+        transform: rotate(-80deg) translateX(101%) translateY(-40%) scale(0.7) skewX(12deg) skewY(5deg);
+      }
+
+      .card.hidden:nth-of-type(6) {
+        transform: rotate(-85deg) translateX(101%) translateY(-21%) scale(0.3) skewX(12deg) skewY(7deg);
+      }
+
+      .card:nth-of-type(1) {
+        z-index: 5;
+        transform: translateX(0) translateY(0);
+      }
+
+      .card:nth-of-type(2) {
+        z-index: 4;
+        transform: translateX(10px) translateY(10px);
+      }
+
+      .card:nth-of-type(3) {
+        z-index: 3;
+        transform: translateX(20px) translateY(20px);
+      }
+
+      .card:nth-of-type(4) {
+        z-index: 2;
+        transform: translateX(30px) translateY(30px);
+      }
+
+      .card:nth-of-type(5) {
+        z-index: 1;
+        transform: translateX(40px) translateY(40px);
+      }
+
+      .card:nth-of-type(6) {
+        z-index: 0;
+        transform: translateX(50px) translateY(50px);
+      }
+
+      .social .fa {
+        background: hotpink;
+        width: 35px;
+        height: 35px;
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        margin-top: 20px;
+      }
     </style>
   </head>
   <body>
@@ -59,8 +209,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -75,8 +225,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -91,8 +241,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -107,8 +257,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -123,8 +273,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -139,8 +289,8 @@
           <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque nam, officiis incidunt
-            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo dolorum.
-            Recusandae corporis voluptatum quo.
+            veritatis odit ullam voluptatum perspiciatis earum magnam harum laudantium omnis esse illo
+            dolorum. Recusandae corporis voluptatum quo.
           </p>
           <div class="social">
             <i class="fa fa-facebook"></i>
@@ -151,5 +301,49 @@
         </div>
       </section>
     </section>
+    <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var oldId = null;
+
+        $('.tabs-controls-link').click(function(e) {
+          e.preventDefault();
+
+          if ($(this).hasClass('tabs-controls-link-active')) {
+            return false;
+          }
+
+          var currentId = parseInt($(this).data('id'), 10);
+          $('.tabs-controls-link-active').removeClass('tabs-controls-link-active');
+          $(this).addClass('tabs-controls-link-active');
+
+          if (currentId < oldId) {
+            // item is hidden
+            var timing = $('.card.hidden').length * 100;
+            $('.card').each(function(index) {
+              if (index > currentId - 1 || index == currentId - 1) {
+                window.setTimeout(function() {
+                  $('.card')
+                    .eq(index)
+                    .removeClass('hidden');
+                }, timing - index * 100);
+              }
+            });
+          } else {
+            $('.card').each(function(index) {
+              if (index < currentId - 1) {
+                window.setTimeout(function() {
+                  $('.card')
+                    .eq(index)
+                    .addClass('hidden');
+                }, index * 100);
+              }
+            });
+          }
+
+          oldId = currentId;
+        });
+      });
+    </script>
   </body>
 </html>
