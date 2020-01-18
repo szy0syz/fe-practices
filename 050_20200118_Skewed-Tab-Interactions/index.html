@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Skewed Tab Interactions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        background: #f5f9ff;
+      }
+
+      .container {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 18em;
+        height: 1.5em;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+
+      .option {
+        flex: 1 1 2em;
+        color: #f0f0f0;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+        cursor: pointer;
+        border: none;
+        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+
+      .option::before {
+        content: '';
+        position: relative;
+        width: 1.7em;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        color: #f0f0f0;
+        transform-origin: left top;
+        transform: skew(-30deg, 0deg);
+      }
+
+      .option--four {
+        background: #104e5a;
+        box-shadow: 0px 0px 40px #104e5a;
+      }
+
+      .option--four::before {
+        background: #104e5a;
+      }
+
+      .option--three {
+        background: #142136;
+        box-shadow: 0px 0px 40px #142136;
+      }
+
+      .option--three::before {
+        background: #142136;
+      }
+      .option--two {
+        background: #d51515;
+        box-shadow: 0px 0px 40px #d51515;
+      }
+      .option--two::before {
+        background: #d51515;
+      }
+      .option--one {
+        background: #e57910;
+        box-shadow: 0px 0px 40px #e57910;
+      }
+
+      /* 启动动画 */
+      .option:focus {
+        flex-basis: 9em;
+        outline: none;
+      }
+      .option i {
+        padding: 5px 5px 5px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="option option--one" tabindex="0"><i class="fas fa-user">Profile</i></div>
+      <div class="option option--two" tabindex="0"><i class="fas fa-location-arrow">Location</i></div>
+      <div class="option option--three" tabindex="0"><i class="fas fa-chart-pie">Statistics</i></div>
+      <div class="option option--four" tabindex="0"><i class="fas fa-user">Settins</i></div>
+    </div>
+  </body>
+</html>
