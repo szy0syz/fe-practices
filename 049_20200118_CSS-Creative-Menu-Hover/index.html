@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pure CSS Creative Menu Hover Effects</title>
+
+  <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+
+      .navigation ul {
+        position: relative;
+      }
+
+      .navigation ul li {
+        text-align: center;
+        list-style: none;
+      }
+
+      .navigation ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 3em;
+        padding: 5px 20px;
+        display: inline-flex;
+        font-weight: 700;
+        transition: .5s;
+      }
+
+      .navigation ul:hover li a {
+        color: #0002;
+      }
+
+      .navigation ul li:hover a {
+        color: #000;
+        background: #fff;
+      }
+
+      .navigation ul li a::before {
+         content: '';
+         position: absolute;
+         top: 50%;
+         left: 40%;
+         transform: translate(-50%, -50%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 5em;
+         color: rgba(0,0,0,.1);
+         border-radius: 50%;
+         z-index: -1;
+         opacity: 0;
+         font-weight: 900;
+         text-transform: uppercase;
+         letter-spacing: 500px;
+         transition: letter-spacing 0.5s, left 0.5s;
+      }
+
+      .navigation ul li a:hover:before {
+        content: attr(data-text);
+        opacity: 1;
+        left: 50%;
+        letter-spacing: 10px;
+        width: 1800px;
+        height: 1800px;
+      }
+
+      .navigation ul li:nth-child(6n+1) a::before {
+        background: #81ecec;
+      }
+
+      .navigation ul li:nth-child(6n+2) a::before {
+        background: #ff7665;
+      }
+
+      .navigation ul li:nth-child(6n+3) a::before {
+        background: #55efc4;
+      }
+
+      .navigation ul li:nth-child(6n+4) a::before {
+        background: #a29bfe;
+      }
+
+      .navigation ul li:nth-child(6n+5) a::before {
+        background: #fd79a8;
+      }
+
+      .navigation ul li:nth-child(6n+6) a::before {
+        background: #ffeaa7;
+      }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="navigation">
+    <ul>
+      <li><a href="#" data-text="Home">Home</a></li>
+      <li><a href="#" data-text="About">About</a></li>
+      <li><a href="#" data-text="Services">Services</a></li>
+      <li><a href="#" data-text="Work">Work</a></li>
+      <li><a href="#" data-text="Team">Team</a></li>
+      <li><a href="#" data-text="Contact">Contact</a></li>
+  </div>
+
+</body>
+</html>
