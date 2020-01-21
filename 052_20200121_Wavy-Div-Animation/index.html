@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pure CSS Wavy Div Animation Effects</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #000;
+      }
+
+      .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container .box {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-reflect: below 15px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.2));
+      }
+
+      .container .box:hover {
+        color: #000;
+      }
+
+      .container .box::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 100%;
+        height: 100%;
+        border: 4px solid #fff;
+        background: #000;
+        filter: url(#wavy);
+      }
+
+      .container .box:hover::before {
+        background: #fff;
+        transition: 0.5s;
+      }
+
+      .container .box::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 50%;
+        height: 100%;
+        border: 4px solid #fff;
+        border-right: none;
+        background: rgba(255, 255, 255, 0.1);
+        filter: url(#wavy);
+      }
+
+      .container .box .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="content">
+          <h2>Water Wave Div</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor saepe laboriosam optio odio
+            ratione, eos aliquam, fugiat aspernatur repudiandae quo doloremque nisi numquam veritatis vitae
+            sunt illo reprehenderit quidem nemo?
+          </p>
+        </div>
+      </div>
+    </div>
+    <svg>
+      <filter id="wavy">
+        <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
+          <animate
+            attributeName="baseFrequency"
+            dur="60s"
+            values="0.02;0.05;0.02"
+            repeatCount="indefinite"
+          ></animate>
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale="30"></feDisplacementMap>
+      </filter>
+    </svg>
+  </body>
+</html>
