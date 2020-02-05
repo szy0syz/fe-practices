@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>How To Create a Full screen Overlay Navigation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Teko', sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+      }
+
+      .fullpageMenu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #111;
+        transition: 0.5s;
+      }
+
+      .fullpageMenu.active {
+        top: 0%;
+      }
+
+      .fullpageMenu .banner {
+        position: relative;
+        min-width: 600px;
+        height: 100%;
+      }
+
+      .fullpageMenu .banner img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .fullpageMenu .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+      }
+
+      .fullpageMenu .nav ul {
+        position: relative;
+      }
+
+      .fullpageMenu .nav ul li {
+        position: relative;
+        list-style: none;
+        padding: 0 120px;
+        margin: 25px 0;
+        overflow: hidden;
+        display: table;
+      }
+
+      .fullpageMenu .nav ul li::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ff0047;
+        transition: transform 0.5s ease-in-out;
+        transform: scaleY(0);
+        transform-origin: bottom;
+      }
+
+      .fullpageMenu .nav ul li:hover:before {
+        transition: transform 0.5s ease-in-out;
+        transform: scaleY(1);
+        transform-origin: top;
+      }
+
+      .fullpageMenu .nav ul li a {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-size: 4em;
+        font-weight: 700;
+        line-height: 1em;
+        display: inline-block;
+        text-transform: uppercase;
+        transition: 0.5s ease-in-out;
+      }
+
+      .fullpageMenu .nav ul li a::before {
+        content: attr(data-text);
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        color: #fff;
+      }
+
+      .fullpageMenu .nav ul li:hover a {
+        transform: translateY(-100%);
+        color: #fff;
+      }
+
+      .menuicon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        background: #fff url(menu.png) center no-repeat;
+        background-size: cover;
+        cursor: pointer;
+      }
+
+      .menuicon.active {
+        background: #fff url(close.png) center no-repeat;
+        background-size: 72% 72%;
+        cursor: pointer;
+      }
+
+      @media (max-width: 991px) {
+        .banner {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fullpageMenu" id="nav">
+      <div class="banner">
+        <img src="../048_20200117_Hamburger-Menu/bg.jpg" alt="" />
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#" data-text="Home">Home</a></li>
+          <li><a href="#" data-text="About">About</a></li>
+          <li><a href="#" data-text="Services">Services</a></li>
+          <li><a href="#" data-text="Portfolio">Portfolio</a></li>
+          <li><a href="#" data-text="Team">Team</a></li>
+          <li><a href="#" data-text="Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+    <script type="text/javascript">
+      function menuToggle() {
+        var nav = document.getElementById('nav');
+        var toggle = document.getElementById('toggle');
+        nav.classList.toggle('active');
+        toggle.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
