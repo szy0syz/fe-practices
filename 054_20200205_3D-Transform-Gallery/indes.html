@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>3D Transform Gallery Effect</title>
+    <style>
+      body {
+        background-color: #07131f;
+        margin: 0;
+        padding: 0;
+      }
+
+      .scene {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .back.stage {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        width: 45%;
+        height: 60%;
+        transition: all 0.5s;
+      }
+
+      .character {
+        flex: 1 1 auto;
+        margin: 1px;
+        transition: filter 0.7s, transform 0.4s, all 0.7s;
+        cursor: pointer;
+      }
+
+      .character > img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        border: 2px solid white;
+      }
+
+      .back.stage.live {
+        width: 40%;
+      }
+
+      .character.performing {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        z-index: 10000;
+        transform: translate(-50%, -50%) rotate3d(1, 1, 0, 360deg);
+      }
+
+      .character.performing > img {
+        max-width: 80vw;
+        max-height: 80vh;
+      }
+
+      .character.idle {
+        filter: blur(4px);
+        cursor: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scene">
+      <div class="back stage">
+        <a href="#" class="character">
+          <img src="1.jpg" alt="" />
+        </a>
+
+        <a href="#" class="character">
+          <img src="2.jpg" alt="" />
+        </a>
+
+        <a href="#" class="character">
+          <img src="3.jpg" alt="" />
+        </a>
+
+        <a href="#" class="character">
+          <img src="4.jpg" alt="" />
+        </a>
+
+        <a href="#" class="character">
+          <img src="2.jpg" alt="" />
+        </a>
+
+        <a href="#" class="character">
+          <img src="1.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
