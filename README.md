@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 056-20200206 GSAP鼠标跟随效果
+
+![20200206](/056_20200206_GSAP-Mousemove-Text/preview.gif)
+
 ## 055-20200205 全屏动画导航菜单
 
 ![202002051](/055_20200205_Full-screen-Overlay-Navigation/preview.gif)
