@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 3D Perspective Post With Layered Image Hover Effects</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #111;
+        flex-direction: column;
+      }
+
+      .container {
+        position: relative;
+        margin-top: 250px;
+        max-width: 800px;
+        /* 1.整个卡片先歪 20° */
+        transform: skewY(-20deg);
+      }
+
+      .container .imgBx {
+        position: relative;
+        height: 180px;
+        width: 100%;
+        /* 2.在这个歪着的卡片里 图片从底往上X轴歪45° */
+        transform-origin: bottom;
+        transform: skewX(45deg);
+      }
+
+      .container .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: grayscale(1);
+        width: 100%;
+        transition: 0.5s;
+      }
+
+      .container .imgBx:hover img:nth-child(3) {
+        transform: translate(100px, -100px);
+      }
+
+      .container .imgBx:hover img:nth-child(2) {
+        transform: translate(50px, -50px);
+        opacity: 0.5;
+      }
+
+      .container .imgBx:hover img:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.1;
+      }
+
+      .container h2 {
+        position: relative;
+        color: #fff;
+        font-size: 4em;
+      }
+
+      .container .skew {
+        transform-origin: top;
+        transform: skewX(45deg);
+      }
+
+      .container .skew p {
+        color: #aaa;
+        font-size: 1.2em;
+      }
+
+      .container .skew a {
+        position: relative;
+        padding: 10px 30px;
+        display: inline-block;
+        background: transparent;
+        color: #fff;
+        transform-origin: top;
+        margin-top: 20px;
+        border: 2px solid #fff;
+        transform: skewX(-45deg);
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 20px;
+        transition: 0.5s;
+      }
+
+      .container .skew a:hover {
+        background: #fff;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imgBx">
+        <img src="./1.jpeg" alt="1" />
+        <img src="./1.jpeg" alt="1" />
+        <img src="./1.jpeg" alt="1" />
+      </div>
+      <h2>CSS 3D Perspective Post</h2>
+      <div class="skew">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium vel corrupti dolorem
+          sapiente perferendis doloribus dolore omnis saepe rem quidem, nesciunt, numquam magni vitae, quia
+          consequuntur laborum aspernatur qui!
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </body>
+</html>
