@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Form Design in HTML CSS - NO JS / Website Design</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to bottom right, #111e25 0%, #111 100%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      form {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      input,
+      button {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -300%);
+        display: block;
+        width: 70vw;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.5s cubic-bezier(0.4, 0.25, 0.8 0.3);
+      }
+
+      input {
+        padding: 0.25rem 0;
+        border: 0;
+        border-bottom: 2px solid #bb1515;
+        outline: 0;
+        background: transparent;
+        color: white;
+        font-size: 3rem;
+        line-height: 4rem;
+        letter-spacing: 0.125rem;
+        transition: all 0.5s cubic-bezier(0.4, 0.25, 0.08 0.3);
+      }
+
+      input::selection {
+        background: rgba(187, 21, 21, 0.25);
+      }
+
+      button,
+      .singup-button {
+        padding: 10px 20px;
+        border: 0;
+        outline: 0;
+        background: #18b7cc;
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 2rem;
+        line-height: 3.6rem;
+        letter-spacing: 0.071rem;
+        box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.25);
+        text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.2);
+      }
+
+      input:focus,
+      button:focus {
+        opacity: 1;
+        transform: translate(-50%, -100%);
+        pointer-events: auto;
+        transition: all 0.4s cubic-bezier(0.1, 0.45, 0.1, 0.85) 0.5s;
+        z-index: 10;
+      }
+
+      input:focus ~ input,
+      input:focus ~ button {
+        transform: translate(-50%, 500%);
+        transition: all 0.5s ease-in;
+      }
+
+      p.tip {
+        color: white;
+        height: 50px;
+        z-index: 11;
+        position: fixed;
+        top: 52%;
+        left: 85vw;
+        transform: translatex(-100%);
+      }
+
+      label[for='input-1'] {
+        position: fixed;
+        left: 15vw;
+        top: 38%;
+        color: white;
+        font-size: 20px;
+      }
+
+      .signup-button-trigger {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="input-1" placeholder="Jerry Shi" required autofocus />
+      <label for="input-1">
+        <span class="label-text">Full Name</span>
+        <span class="nav-dot"></span>
+        <span class="signup-button-trigger">Sign Up</span>
+      </label>
+
+      <input type="text" id="input-2" placeholder="jerry" required />
+      <label for="input-2">
+        <span class="label-text">username</span>
+        <span class="nav-dot"></span>
+      </label>
+
+      <input type="email" id="input-3" placeholder="Email" required />
+      <label for="input-3">
+        <span class="label-text">Email</span>
+        <span class="nav-dot"></span>
+      </label>
+
+      <input type="password" id="input-4" placeholder="Password" required />
+      <label for="input-4">
+        <span class="label-text">Password</span>
+        <span class="nav-dot"></span>
+      </label>
+
+      <input type="password" id="input-5" placeholder="Confirm Password" required />
+      <label for="input-5">
+        <span class="label-text">Confirm Password</span>
+        <span class="nav-dot"></span>
+      </label>
+
+      <button type="submit" class="singup-button">Create your Account</button>
+      <p class="tip">Press Tab</p>
+    </form>
+  </body>
+</html>
