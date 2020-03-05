@@ -11,6 +11,7 @@
 
 ## 062_20200305_Masonry-layouts
 
+![20200305](/062_20200305_Masonry-layouts/preview.gif)
 
 ## 061_20200301_Responsive-Navbar 响应式导航
 
