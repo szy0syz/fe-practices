@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure CSS 3 Button Like Paint Brush</title>
+    <style>
+      body {
+        background: #333;
+        font-family: tohoma;
+      }
+
+      .btn {
+        appearance: none;
+        padding: 20px 30px;
+        font-size: 24px;
+        border-radius: 59px;
+        border: 2px solid white;
+        color: #fff;
+        background-color: transparent;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        overflow: hidden;
+      }
+
+      .btn-paint {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: deepskyblue;
+        width: 80px;
+        height: 120px;
+        transition: transform 0.4s ease;
+      }
+
+      .btn-label {
+        position: relative;
+        font-family: tahoma;
+      }
+
+      .btn-paint:nth-child(1) {
+        transform-origin: 50% 0;
+        transform: translate(-35px, -20px) rotate(-20px) scale(1, 0);
+      }
+
+      .btn-paint:nth-child(2) {
+        transform-origin: 50% 100%;
+        transform: translate(21px, -20px) rotate(-20px) scale(1, 0);
+        transition-delay: 0.2s;
+      }
+
+      .btn-paint:nth-child(3) {
+        transform-origin: 50% 0;
+        transform: translate(81px, -20px) rotate(-20px) scale(1, 0);
+        transition-delay: 0.4s;
+      }
+
+      .btn-paint:nth-child(4) {
+        transform-origin: 50% 100%;
+        transform: translate(81px, -20px) rotate(-20px) scale(1, 0);
+        transition-delay: 0.7s;
+      }
+
+      .btn:hover > .btn-paint:nth-child(1) {
+        transform: translate(-35px, -20px) rotate(-20deg) scale(1, 1);
+      }
+
+      .btn:hover > .btn-paint:nth-child(2) {
+        transform: translate(-21px, -20px) rotate(20deg) scale(1, 1);
+      }
+
+      .btn:hover > .btn-paint:nth-child(3) {
+        transform: translate(81px, -20px) rotate(-20deg) scale(1, 1);
+      }
+
+      .btn:hover > .btn-paint:nth-child(4) {
+        transform: translate(131px, -20px) rotate(20deg) scale(1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">
+      <span class="btn-paint"></span>
+      <span class="btn-paint"></span>
+      <span class="btn-paint"></span>
+      <span class="btn-paint"></span>
+      <span class="btn-label">Brush Button</span>
+    </button>
+  </body>
+</html>
