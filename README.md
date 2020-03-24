@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 066_20200324_Rubber_Band_Animation
+
+![20200324](/066_20200324_Rubber_Band_Animation/preview.gif)
+
 ## 065_20200320_Profile-Card 个人展示卡
 
 ![20200320](/065_20200320_Profile-Card/preview.gif)
