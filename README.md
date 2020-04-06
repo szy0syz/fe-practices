@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 067_20200406_Glowing-Loading
+
+![20200406](/067_20200406_Glowing-Loading/preview.gif)
+
 ## 066_20200324_Rubber_Band_Animation
 
 ![20200324](/066_20200324_Rubber_Band_Animation/preview.gif)
