@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 068_20200406_Hover-Email-Input
+
+![20200412](/068_20200406_Hover-Email-Input/preview.gif)
+
 ## 067_20200406_Glowing-Loading
 
 ![20200406](/067_20200406_Glowing-Loading/preview.gif)
