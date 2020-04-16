@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Effect on Social Media icon</title>
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    .circle-bg  {
+      background-color: deepskyblue;
+      border-radius: 50%;
+      cursor: pointer;
+      display: table;
+      left: 50%;
+      top: 50%;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      vertical-align: middle;
+      transform: translate(-50%, -50%);
+    }
+
+    .icon {
+      color: white;
+      display: table-cell;
+      font-size: 40px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .outer-icons {
+      left: 50%;
+      top: 50%;
+      position: absolute;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+    }
+
+    .outer-icons i {
+      color: white;
+      border-radius: 50%;
+      font-size: 30px;
+      line-height: 30px;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      vertical-align: middle;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+
+    .one {
+      background: #55acee;
+      left: -120px;
+    }
+
+    .two {
+      background: #3b5998;
+      left: -59px;
+      bottom: -150px;
+    }
+
+    .three {
+      background: #dc4341;
+      left: 59px;
+      bottom: -150px;
+    }
+
+    .four {
+      background: #0077b5;
+      left: 120px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="circle-bg">
+      <i class="icon fa fa-bars"></i>
+    </div>
+    <div class="outer-icons">
+      <i class="one fa fa-twitter"></i>
+      <i class="two fa fa-facebook"></i>
+      <i class="three fa fa-google"></i>
+      <i class="four fa fa-linkedin"></i>
+    </div>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.min.js"></script>
+</body>
+</html>
