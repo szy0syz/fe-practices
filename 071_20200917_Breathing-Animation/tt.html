@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #02d198;
+      }
+
+      .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        width: 330px;
+        height: 330px;
+      }
+
+      .center {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(circle, rgba(255,255,255,0.2), rgba(255,255,255,0.7));
+        border-radius: 50%;
+        animation: animate 0.4s linear;
+        box-shadow: 0 0 0 35px rgba(255, 255, 255, 0.2), 0 0 0 70px rgba(255, 255, 255, 0.1);
+      }
+
+      @keyframes animate {
+        0% {
+          box-shadow: 0 0 0 35px rgba(255, 255, 255, 0.2), 0 0 0 70px rgba(255, 255, 255, 0.1);
+        }
+        100% {
+          box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.2), 0 0 0 120px rgba(255, 255, 255, 0.1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="center"></div>
+    </div>
+  </body>
+</html>
