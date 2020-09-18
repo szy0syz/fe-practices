@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Non-Rectangular Header Using CSS3 Clip-path</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 150vh;
+      }
+
+      section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url(bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: circle(180vh at 50% -80vh);
+      }
+
+      section .content {
+        max-width: 1000px;
+        text-align: center;
+      }
+
+      section .content h2 {
+        font-size: 5em;
+        color: #fff;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="content">
+        <h2>Non-Rectangular Header</h2>
+      </div>
+    </section>
+  </body>
+</html>
