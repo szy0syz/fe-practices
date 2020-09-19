@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 074_20200919_Scratch-Effect
+
+![074_20200919_Scratch-Effect](/074_20200919_Scratch-Effect/preview.gif)
+
 ## 073_20200918_Creative-CSS-Loading
 
 ![072_20200918_Header](/073_20200918_Creative-CSS-Loading/preview.gif)
