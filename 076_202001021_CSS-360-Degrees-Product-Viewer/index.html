@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure CSS 360 Degrees Product Viewer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #111;
+      }
+
+      .card {
+        position: relative;
+        width: 300px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card span {
+        position: absolute;
+        top: 0;
+        left: calc(100% / 6 * var(--i));
+        width: calc(100% / 6);
+        height: 100%;
+      }
+
+      .card img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .card img:nth-child(2),
+      .card span:hover + img {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <span style="--i: 0"></span>
+      <img src="iPhone0.jpg" />
+      <span style="--i: 1"></span>
+      <img src="iPhone1.jpg" />
+      <span style="--i: 2"></span>
+      <img src="iPhone2.jpg" />
+      <span style="--i: 3"></span>
+      <img src="iPhone3.jpg" />
+      <span style="--i: 4"></span>
+      <img src="iPhone4.jpg" />
+      <span style="--i: 5"></span>
+      <img src="iPhone5.jpg" />
+    </div>
+  </body>
+</html>
