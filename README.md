@@ -13,9 +13,9 @@
 
 ![077_20211206_Magic_Navigation](/077_20211206_Magic_Navigation/preview.gif)
 
-## 076_202001021_CSS-360-Degrees-Product-Viewer
+## 076_20201021_CSS-360-Degrees-Product-Viewer
 
-![076_202001021_CSS-360-Degrees-Product-Viewer](/076_202001021_CSS-360-Degrees-Product-Viewer/preview.gif)
+![076_20201021_CSS-360-Degrees-Product-Viewer](/076_20201021_CSS-360-Degrees-Product-Viewer/preview.gif)
 
 ## 075_20200919_CSS-Animation-Loader
 
