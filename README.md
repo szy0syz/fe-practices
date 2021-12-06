@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 077_20211206_Magic_Navigation
+
+![077_20211206_Magic_Navigation](/077_20211206_Magic_Navigation/preview.gif)
+
 ## 076_202001021_CSS-360-Degrees-Product-Viewer
 
 ![076_202001021_CSS-360-Degrees-Product-Viewer](/076_202001021_CSS-360-Degrees-Product-Viewer/preview.gif)
