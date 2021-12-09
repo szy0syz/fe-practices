@@ -11,7 +11,7 @@
 
 ## 078_Border_Animation
 
-![078_Border_Animation](/078_Border_Animation/preview.gif)
+![078_Border_Animation](/078_20211209_Border_Animation/preview.gif)
 
 ## 077_20211206_Magic_Navigation
 
