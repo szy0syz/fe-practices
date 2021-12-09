@@ -9,6 +9,10 @@
 
 > 20190429: 补到今天又点感觉，简单特效，看了效果就能写~
 
+## 078_Border_Animation
+
+![078_Border_Animation](/078_Border_Animation/preview.gif)
+
 ## 077_20211206_Magic_Navigation
 
 ![077_20211206_Magic_Navigation](/077_20211206_Magic_Navigation/preview.gif)
